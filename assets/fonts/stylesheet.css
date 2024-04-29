@@ -12,7 +12,7 @@
 }
 
 @font-face {
-    font-family: 'Glacial Indifference';
+    font-family: 'Glacial Indifference Bold';
     src: url('GlacialIndifference-Bold.eot');
     src: url('GlacialIndifference-Bold.eot?#iefix') format('embedded-opentype'),
         url('GlacialIndifference-Bold.woff2') format('woff2'),
@@ -64,7 +64,7 @@
 }
 
 @font-face {
-    font-family: 'Muli';
+    font-family: 'Muli Regular';
     src: url('Muli-Regular.eot');
     src: url('Muli-Regular.eot?#iefix') format('embedded-opentype'),
         url('Muli-Regular.woff2') format('woff2'),
@@ -77,7 +77,7 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat Bold';
     src: url('Montserrat-Bold.eot');
     src: url('Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
         url('Montserrat-Bold.woff2') format('woff2'),

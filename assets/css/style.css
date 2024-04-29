@@ -24,10 +24,6 @@ img {
 	margin-left: 52px;
 	margin-top: 48px;
 }
-/*.header-div{
-	margin-left: 52px;
-	margin-top: 48px;
-}*/
 
 .header h1{
 	font-size: 40px;
@@ -70,10 +66,7 @@ img {
 	color: #1C1C1C;
 }
 .info{
-	display: table;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 60px;
+    padding-right: 60px;
 }
 .info1 p{
 	display: block;
@@ -100,7 +93,19 @@ img {
 
 
 .clients{
+	padding-right: 60px;
+	margin-top: 60px;
+}
+
+.social{
+	margin-bottom: 60px;
+}
+
+.info-div{
 	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+    flex-direction: column;
 }
 .clients-p{
 	display: inline-block;
@@ -120,6 +125,7 @@ img {
 	background-color: #E93656;
     border: solid;
     border-color: #E93656;
+    margin-top: 20px;
 }
 
 .absolute{
@@ -127,10 +133,126 @@ img {
 	width: 100%;
 }
 
-.slide-wrapper{
+.slides-wrapper{
 	width: 100%;
 }
 
-.slide-wrapper img{
+.slides-wrapper img{
 	max-width: 100%;
+}
+
+
+.progressBar {
+  background-color: #f0f0f0;
+  margin-top: 15px;
+  margin-bottom: 23px;
+}
+
+.progress {
+  width: 0%;
+  height: 9px;
+  background-color: #e93656;
+  transition: all 2s;
+}
+
+.autoProgressBar {
+  width: 300px;
+}
+
+
+.more-info{
+	display: flex;
+	align-items: center;
+    flex-wrap: wrap;
+    margin-left: 60px;
+}
+
+.more-info img{
+	max-width: 100%;
+	width: 430px;
+	margin-top: 60px;
+	margin-right: 65px;
+	margin-left: 65px;
+}
+
+.moreinfo-div{
+	width: 334px;
+}
+
+.moreinfo-p{
+	font-size: 40px;
+	color: #222222;
+	font-family: 'Glacial Indifference Bold';
+}
+
+.moreinfo-p2{
+	margin-top: 6px;
+	font-size: 14px;
+	color: #DAAE19;
+	font-family: 'Muli';
+	margin-bottom: 33px;
+}
+.moreinfo-p3{
+	font-size: 15px;
+	color: #555555;
+	font-family: 'Muli Regular';
+}
+
+.hire{
+	margin-top: 70px;
+	background-color: #E93656;
+	color: white;
+	padding: 10px;
+	border-color: #E93656;
+	font-size: 15px;
+}
+
+
+
+
+.social-2 img{
+	max-width: 100%;
+	width: 25px;
+}
+
+/*.social-2{
+	position: absolute;
+	left: 55%;
+	bottom: -80%;
+}*/
+
+.contact-div{
+	display: flex;
+	background-color: #131A36;
+	height: 210px;
+	margin-top: 100px;
+	flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-div img{
+	width: 55px;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+.contact-div a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #DFDFDF;
+	font-family: 'Muli';
+}
+
+
+.contact-div h3{
+	font-size: 25px;
+	color: #FFFFFF;
+	font-family: 'Glacial Indifference Bold';
+	margin-bottom: 15px;
+}
+
+.contact-div p{
+	font-size: 14px;
+	color: #DFDFDF;
+	font-family: 'Muli';
 }
