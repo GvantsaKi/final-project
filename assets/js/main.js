@@ -21,7 +21,6 @@ window.addEventListener("scroll", () => {
 
 
 
-
 // const startTimeout = document.querySelector(".startTimeout");
 // const stopTimeout = document.querySelector(".stopTimeout");
 // const startInterval = document.querySelector(".startInterval");
@@ -98,3 +97,5 @@ window.addEventListener("scroll", () => {
 // function mouseLeave() {
 //   document.getElementById("demo").style.color = "black";
 // }
+
+

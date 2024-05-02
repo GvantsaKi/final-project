@@ -256,3 +256,86 @@ img {
 	color: #DFDFDF;
 	font-family: 'Muli';
 }
+
+
+
+.rec-section{
+	height: 570px;
+	background-image: url('../images/clip.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	margin-top: 80px;
+	display: flex;
+	align-items: center;
+    justify-content: space-around;
+}
+
+.rec-buttons{
+	position: absolute;
+	transform: translateY(-50%);
+}
+
+.cover{
+	width: 100%;
+	height: auto;
+	position: absolute;
+}
+
+.rec-div{
+	display: none;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+    color: #fafafa;
+    width: 65%;
+}
+
+.rec-button{
+	width: 13px;
+	height: 13px;
+	border: solid 2px #FFFFFF;
+	cursor: pointer;
+}
+
+.rec-p{
+	font-size: 15px;
+	color: #FFFFFF;
+	font-family: 'Roboto';
+	width: 490px;
+}
+
+.rec-h3{
+	font-size: 22px;
+	color: #FFFFFF;
+	font-family: 'Glacial Indifference Bold';
+
+}
+
+.rec-p2{
+	font-size: 13px;
+	color: #E93656;
+	font-family: 'Roboto';
+
+}
+
+.rec-img{
+	border: dotted 2px white;
+	border-radius: 50%;
+}
+
+.rec-button:hover{
+	border-color: #e93656;
+}
+
+.rec-button.active{
+	background-color: #e93656;
+}
+
+
+
+
+
+
+
