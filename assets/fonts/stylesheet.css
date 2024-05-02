@@ -25,7 +25,7 @@
 }
 
 @font-face {
-    font-family: 'Poppins';
+    font-family: 'Poppins Bold';
     src: url('Poppins-ExtraBold.eot');
     src: url('Poppins-ExtraBold.eot?#iefix') format('embedded-opentype'),
         url('Poppins-ExtraBold.woff2') format('woff2'),
@@ -142,7 +142,7 @@
 }
 
 @font-face {
-    font-family: 'Roboto';
+    font-family: 'Roboto Regular';
     src: url('Roboto-Regular.eot');
     src: url('Roboto-Regular.eot?#iefix') format('embedded-opentype'),
         url('Roboto-Regular.woff2') format('woff2'),
