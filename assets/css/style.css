@@ -429,6 +429,7 @@ img {
 	margin-top: 60px;
 	background-image: url('../images/map.jpg');
 	height: 660px;
+	position: relative;
 }
 
 .user{
@@ -480,12 +481,17 @@ img {
 	font-size: 45px;
 	color: #FFFFFF;
 	font-family: 'Jaapokki';
+	text-align: center;
+	margin-bottom: 12px;
+	margin-top: 60px;
 }
 
 .form-p{
 	font-size: 17px;
 	color: #EEEEEE;
 	font-family: 'Roboto';
+	text-align: center;
+	margin-bottom: 46px;
 }
 
 .registration-button{
@@ -498,6 +504,48 @@ img {
 
 }
 
+.modal{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	border: solid 1px grey;
+	padding: 60px;
+	background-color: #8d97a5;
+}
+
+.modal-btn{
+	margin-top: 30px;
+	outline: none;
+	background: transparent;
+	border: 1px solid #666262;
+	padding: 10px 22px;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.block{
+	display: none;
+}
+
+.modal-border{
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-layer{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #000000;
+	opacity: 0.7;
+
+
+}
 
 
 
@@ -553,4 +601,15 @@ img {
 	font-family: 'Muli';
 	text-align: center;
 	padding-top: 22px;
+}
+
+.fa{
+	color: #00ffff;
+	margin-left: 15px;
+}
+
+.footer-logos{
+	display: flex;
+	justify-content: center;
+	margin-top: 45px;
 }
