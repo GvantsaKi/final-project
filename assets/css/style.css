@@ -257,6 +257,27 @@ img {
 	font-family: 'Muli';
 }
 
+/*service section*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .rec-section{
@@ -332,6 +353,91 @@ img {
 .rec-button.active{
 	background-color: #e93656;
 }
+
+
+
+
+/*latest projects*/
+.navigation-background{
+	background-color: #15263e;
+	padding: 45px;
+	max-height: 401px;
+	width: 240px;
+}
+
+.bar-li{
+	font-size: 20px;
+	color: #ffffff;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.bar{
+	padding: 10px;
+}
+.latest{
+	margin-top: 70px;
+	text-align: center;
+	font-size: 70px;
+}
+.bar-li:hover{
+	color: #e93656;
+}
+
+.projects{
+	display: flex;
+	width: 60%;
+	flex-wrap: wrap;
+	margin-left: 30px;
+}
+
+
+
+.project-div{
+	width: 300px;
+	height: 350px;
+	background-color: #555555;
+}
+
+.project-div p{
+	font-size: 11px;
+	color: #DDDDDD;
+	text-align: center;
+	font-family: 'Muli';
+	margin-top: 17px;
+}
+
+.project-div h4{
+	font-size: 23px;
+	color: #FFFFFF;
+	font-family: 'Glacial Indifference Bold';
+	text-align: center;
+	margin-top: 7px;
+}
+
+
+.project-div img{
+	margin-left: 140px;
+	margin-top: 100px;
+}
+
+
+.projects-flex{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -422,15 +528,75 @@ img {
     height: 590px;
 }
 
+
+
+.logo-all{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.rosa-p{
+	font-size: 13px;
+	color: #626262;
+	text-align: center;
+}
+.rosa-back{
+	background-color: #ffffff;
+	border: solid 4px #e93656;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 32px;
+	position: absolute;
+	max-width: 230px;
+	max-height: 190px;
+	opacity: 0;
+}
+.logos{
+	margin-top: 50px;
+	position: relative;
+	display: flex;
+	justify-content: space-evenly;
+	cursor: pointer;
+	align-items: center;
+}
+.rosa-back h4{
+	font-size: 12px;
+}
+
+.logo-size{
+	max-width: 110px;
+	max-height: 110px;
+}
+.logos:hover .rosa-back {
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*contact form styles*/
 
 
 .contact-back{
-	margin-top: 60px;
+	margin-top: 120px;
 	background-image: url('../images/map.jpg');
 	height: 660px;
 	position: relative;
 }
+
+
 
 .user{
 	outline: none;

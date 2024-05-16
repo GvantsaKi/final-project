@@ -128,3 +128,48 @@ function sendMessage() {
     message: document.getElementById('message').value
   }));
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function initFilterProjects() {
+  const filters = document.querySelectorAll(".bar-li");
+  const projects = document.querySelectorAll(".project");
+
+  projects.forEach((project) => {
+    project.style.display = "block";
+  });
+
+  filters.forEach((filter) => {
+    filter.addEventListener("click", () => {
+      const name = filter.dataset.name;
+
+      if (name === "all") {
+        projects.forEach((project) => {
+          project.style.display = "block";
+        });
+      } else {
+        projects.forEach((project) => {
+          project.style.display = "none";
+        });
+        const currentProject = Array.from(projects).find(
+          (project) => project.dataset.name === name
+        );
+
+        currentProject.style.display = "block";
+      }
+    });
+  });
+}

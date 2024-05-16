@@ -60,6 +60,32 @@
 		font-size: 30px;
 	}
 
+	.form-h3{
+		margin-top: 20px;
+		font-size: 25px;
+	}
+	.form-p{
+		margin-bottom: 0px;
+		font-size: 14px;
+	}
+	.input-div{
+		margin-top: 20px;
+	}
+	.article-img{
+		height: 512px;
+		width: 100%;
+		object-fit: contain;
+	}
+	.article-div3{
+		width: 590px;
+		height: 123px;
+	}
+	.article-div3 h2{
+		margin-top: 30px;
+		writing-mode: horizontal-tb;
+		text-align: center;
+	}
+
 
 
 
